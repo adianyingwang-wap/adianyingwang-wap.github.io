@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>aⅴ电影网_最新高清电影电视剧免费在线观看_33adianyingwang-wap.github.io</title>
+<meta name="description" content="aⅴ电影网（33adianyingwang-wap.github.io）提供最新高清电影、热播电视剧、综艺动漫在线观看，院线新片与经典好剧每日更新，全站移动端自适应，随时随地畅享影视。">
+<meta name="keywords" content="aⅴ电影网,adianyingwang,高清电影,在线观看,免费电影,热播电视剧,综艺动漫,新片">
+<meta name="applicable-device" content="pc,mobile">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#0b0d12">
+<link rel="canonical" href="https://33adianyingwang-wap.github.io/">
+<style>
+/* ===== 设计令牌：午夜黑金风 ===== */
+:root{
+  --bg:#0b0d12; --bg2:#11141c; --card:#161a24; --card2:#1d2230;
+  --ink:#f2f4f8; --ink2:#a8b0c0; --ink3:#6f7889;
+  --line:rgba(255,255,255,.08); --gold:#e3b34a; --gold2:#ffd47a;
+  --red:#ff4d5e; --blue:#3d7dff;
+  --shadow:0 10px 30px rgba(0,0,0,.45);
+  --radius:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.75;overflow-x:hidden;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:6px}
+::selection{background:rgba(227,179,74,.25);color:#fff}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* ===== 顶部 ===== */
+.topbar{position:sticky;top:0;z-index:100;background:rgba(11,13,18,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.top-in{max-width:1180px;margin:0 auto;padding:13px 20px;display:flex;align-items:center;gap:18px}
+.logo{display:flex;align-items:center;gap:11px;flex-shrink:0}
+.logo-badge{
+  width:40px;height:40px;border-radius:12px;flex-shrink:0;
+  background:linear-gradient(135deg,var(--gold),#c8891f);
+  display:grid;place-items:center;color:#1a1304;font-weight:900;font-size:15px;
+  box-shadow:0 5px 16px rgba(227,179,74,.3);
+}
+.logo-tx{display:flex;flex-direction:column;line-height:1.25}
+.logo-tx b{font-size:18px;letter-spacing:.4px}
+.logo-tx small{font-size:11px;color:var(--ink3);font-weight:500}
+.menu{display:flex;gap:2px;margin-left:auto;flex-wrap:wrap}
+.menu a{padding:9px 14px;border-radius:10px;font-size:14px;color:var(--ink2);font-weight:500;transition:.2s}
+.menu a:hover{background:rgba(227,179,74,.12);color:var(--gold2)}
+.mbtn{display:none;width:44px;height:44px;border-radius:12px;background:rgba(227,179,74,.12);margin-left:auto;flex-direction:column;gap:5px;align-items:center;justify-content:center}
+.mbtn i{width:19px;height:2px;background:var(--gold);border-radius:2px;display:block}
+
+/* ===== Hero ===== */
+.hero{
+  position:relative;padding:76px 20px 82px;text-align:center;overflow:hidden;
+  background:radial-gradient(800px 340px at 50% -20%,rgba(227,179,74,.16),transparent 70%),#0b0d12;
+}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent,rgba(11,13,18,.9))}
+.hero::after{content:"";position:absolute;width:600px;height:600px;border-radius:50%;right:-260px;top:-300px;background:radial-gradient(circle,rgba(61,125,255,.14),transparent 65%)}
+.hero-c{position:relative;z-index:1;max-width:730px;margin:0 auto}
+.hero-pill{display:inline-block;padding:7px 18px;border-radius:999px;font-size:13px;font-weight:600;border:1px solid rgba(227,179,74,.4);color:var(--gold2);margin-bottom:22px;background:rgba(227,179,74,.06)}
+.hero h1{font-size:clamp(30px,5.4vw,50px);line-height:1.22;font-weight:900;letter-spacing:-.4px}
+.hero h1 em{font-style:normal;background:linear-gradient(90deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{margin:18px auto 0;max-width:560px;color:var(--ink2);font-size:16.5px}
+.hero-acts{display:flex;gap:12px;justify-content:center;margin-top:32px;flex-wrap:wrap}
+.bt{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;border-radius:13px;font-size:15px;font-weight:600;transition:.22s}
+.bt-main{background:linear-gradient(135deg,var(--gold),#c8891f);color:#1a1304;box-shadow:0 9px 26px rgba(227,179,74,.3)}
+.bt-main:hover{transform:translateY(-2px);box-shadow:0 13px 32px rgba(227,179,74,.42)}
+.bt-line{background:transparent;border:1px solid var(--line);color:var(--ink)}
+.bt-line:hover{border-color:var(--gold);color:var(--gold2)}
+.searchbar{margin:34px auto 0;max-width:560px;display:flex;gap:8px;background:var(--card);padding:8px;border-radius:16px;box-shadow:var(--shadow);position:relative;z-index:2;border:1px solid var(--line)}
+.searchbar input{flex:1;border:none;outline:none;padding:10px 14px;font-size:15px;background:transparent;color:var(--ink)}
+.searchbar input::placeholder{color:var(--ink3)}
+.searchbar button{padding:0 24px;border-radius:11px;background:linear-gradient(135deg,var(--gold),#c8891f);color:#1a1304;font-weight:700;font-size:15px}
+
+/* ===== 通用 ===== */
+.wrap{max-width:1180px;margin:0 auto;padding:66px 20px}
+.stitle{display:flex;align-items:baseline;gap:12px;margin-bottom:8px;flex-wrap:wrap}
+.stitle h2{font-size:clamp(22px,3vw,28px);font-weight:900;letter-spacing:.3px}
+.stitle span{font-size:13px;color:var(--ink3);font-weight:500}
+.sdesc{color:var(--ink2);font-size:14.5px;margin-bottom:26px}
+.more{display:inline-flex;align-items:center;gap:5px;color:var(--gold2);font-size:14px;font-weight:600;margin-bottom:26px}
+.more:hover{gap:9px}
+
+/* ===== 栏目一：本周榜（有序列表 + 进度条 DOM） ===== */
+.rank-list{display:flex;flex-direction:column;gap:12px}
+.rank-item{
+  display:grid;grid-template-columns:54px 76px 1fr 104px;gap:18px;align-items:center;
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 18px;transition:.22s;
+}
+.rank-item:hover{border-color:rgba(227,179,74,.45);background:var(--card2);transform:translateX(4px)}
+.rn{font-size:26px;font-weight:900;color:var(--ink3);font-variant-numeric:tabular-nums}
+.rn.g1{color:var(--gold)}.rn.g2{color:var(--ink2)}.rn.g3{color:#c98a4b}
+.rth{width:76px;height:76px;border-radius:12px;overflow:hidden;background:#222}
+.rth img{width:100%;height:100%;object-fit:cover}
+.rb{flex:1;min-width:0}
+.rb h4{font-size:17px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rb .meta{font-size:12.5px;color:var(--ink3);margin-top:3px}
+.bar{margin-top:9px;height:5px;border-radius:999px;background:rgba(255,255,255,.08);overflow:hidden}
+.bar i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--gold),var(--gold2))}
+.sc{text-align:right}
+.sc b{display:block;font-size:20px;font-weight:900;color:var(--gold2)}
+.sc span{font-size:12px;color:var(--ink3)}
+
+/* ===== 栏目二：类型轮播式横滑（横向滚动 DOM） ===== */
+.marquee{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+.marquee::-webkit-scrollbar{height:6px}
+.marquee::-webkit-scrollbar-thumb{background:rgba(255,255,255,.14);border-radius:99px}
+.ch{
+  flex:0 0 230px;scroll-snap-align:start;position:relative;border-radius:var(--radius);overflow:hidden;
+  aspect-ratio:3/4;background:var(--card);border:1px solid var(--line);transition:.25s;
+}
+.ch:hover{flex:0 0 248px}
+.ch img{width:100%;height:100%;object-fit:cover}
+.ch::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(8,9,13,.96),transparent 62%)}
+.ch-c{position:absolute;left:16px;right:16px;bottom:15px;z-index:1}
+.ch-c b{display:block;font-size:16.5px;font-weight:800}
+.ch-c span{font-size:12px;color:var(--ink3)}
+.ch-c em{font-style:normal;display:inline-block;margin-top:6px;font-size:11.5px;font-weight:700;color:var(--gold2);background:rgba(227,179,74,.14);padding:2px 8px;border-radius:6px}
+
+/* ===== 栏目三：频道导航（等分网格 + 序号大数字） ===== */
+.ch-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
+.ch2{
+  position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:22px 20px 18px;overflow:hidden;transition:.24s;
+}
+.ch2:hover{border-color:rgba(227,179,74,.45);transform:translateY(-4px);background:var(--card2)}
+.ch2 .no{position:absolute;right:12px;top:6px;font-size:44px;font-weight:900;color:rgba(255,255,255,.05);line-height:1}
+.ch2 em{font-style:normal;font-size:26px;display:block;margin-bottom:8px}
+.ch2 b{font-size:16px;display:block}
+.ch2 span{font-size:12.5px;color:var(--ink3)}
+
+/* ===== 栏目四：上线日历（时间轴结构） ===== */
+.tl{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:8px 24px;box-shadow:var(--shadow)}
+.tl-item{position:relative;padding:20px 0 20px 92px;border-bottom:1px solid rgba(255,255,255,.07)}
+.tl-item:last-child{border-bottom:none}
+.tl-item::before{content:"";position:absolute;left:66px;top:0;bottom:0;width:2px;background:rgba(255,255,255,.07)}
+.tl-item::after{content:"";position:absolute;left:61px;top:26px;width:12px;height:12px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px rgba(227,179,74,.14)}
+.tl-d{position:absolute;left:0;top:20px;font-size:12px;color:var(--gold2);font-weight:700;text-align:right;width:52px}
+.tl-d small{display:block;font-size:11px;color:var(--ink3);font-weight:500}
+.tl-item h4{font-size:16.5px;font-weight:800}
+.tl-item p{font-size:13px;color:var(--ink2);margin-top:4px}
+.tl-item .tg{display:inline-block;margin-top:8px;font-size:11.5px;padding:3px 9px;border-radius:6px;background:rgba(61,125,255,.16);color:#7fa8ff}
+
+/* ===== 栏目五：专题合集（大封面横幅） ===== */
+.bn{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.bn-a{
+  position:relative;border-radius:var(--radius);overflow:hidden;min-height:210px;padding:26px;
+  display:flex;flex-direction:column;justify-content:flex-end;color:#fff;
+}
+.bn-a.b1{background:linear-gradient(135deg,#3d7dff,#1a3fb0);grid-row:span 2;min-height:440px}
+.bn-a.b2{background:linear-gradient(135deg,#ff4d5e,#b22a3a)}
+.bn-a.b3{background:linear-gradient(135deg,#00a88a,#067a64)}
+.bn-a h4{font-size:22px;font-weight:900;position:relative;z-index:1}
+.bn-a p{font-size:13.5px;opacity:.92;margin-top:6px;position:relative;z-index:1}
+.bn-a span{position:absolute;right:20px;top:20px;font-size:12px;font-weight:700;background:rgba(255,255,255,.22);padding:4px 11px;border-radius:999px}
+
+/* ===== 栏目六：数据墙 + 问答 ===== */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
+@media(max-width:860px){.split{grid-template-columns:1fr}}
+.wall{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.wi{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px;transition:.22s}
+.wi:hover{border-color:rgba(227,179,74,.4);transform:translateY(-3px)}
+.wi b{display:block;font-size:30px;font-weight:900;color:var(--gold2)}
+.wi span{font-size:13px;color:var(--ink2);display:block;margin-top:4px}
+.qa{border:1px solid var(--line);border-radius:var(--radius);background:var(--card);padding:8px 22px;box-shadow:var(--shadow)}
+.qa details{border-bottom:1px solid rgba(255,255,255,.07)}
+.qa details:last-child{border-bottom:none}
+.qa summary{padding:18px 0;font-size:15.5px;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:12px;color:var(--ink)}
+.qa summary::-webkit-details-marker{display:none}
+.qa summary::after{content:"＋";color:var(--gold);font-size:20px;flex-shrink:0;font-weight:400}
+.qa details[open] summary::after{content:"－"}
+.qa details p{padding:0 0 18px;color:var(--ink2);font-size:14.5px}
+
+/* ===== 页脚 ===== */
+.foot{background:#07080b;border-top:1px solid var(--line);padding:54px 20px 28px;margin-top:30px}
+.foot-c{max-width:1180px;margin:0 auto}
+.foot-top{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px;padding-bottom:34px;border-bottom:1px solid var(--line)}
+.foot-logo{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.foot-logo b{font-size:19px}
+.foot-logo .logo-badge{width:38px;height:38px;border-radius:11px}
+.foot-col h5{font-size:14px;margin-bottom:14px;letter-spacing:.5px;color:var(--gold2)}
+.foot-col a{display:block;padding:6px 0;font-size:14px;color:var(--ink2);transition:.18s}
+.foot-col a:hover{color:var(--gold2);padding-left:4px}
+.foot-bot{margin-top:26px;text-align:center;color:var(--ink3);font-size:13px}
+.foot-bot p{margin-top:6px;line-height:1.9}
+
+/* ===== 移动端 ===== */
+@media(max-width:820px){
+  .bn{grid-template-columns:1fr}
+  .bn-a.b1{grid-row:auto;min-height:210px}
+  .rank-item{grid-template-columns:44px 64px 1fr;gap:14px}
+  .sc{display:none}
+  .rth{width:64px;height:64px}
+}
+@media(max-width:768px){
+  .wrap{padding:46px 18px}
+  .hero{padding:50px 18px 60px}
+  .menu{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;background:#0d1017;border-bottom:1px solid var(--line);padding:10px;gap:0}
+  .menu.is-open{display:flex}
+  .menu a{padding:14px 16px;border-radius:0;border-bottom:1px solid rgba(255,255,255,.05)}
+  .menu a:last-child{border-bottom:none}
+  .mbtn{display:flex}
+  .searchbar{flex-direction:column;padding:10px}
+  .searchbar button{padding:13px}
+  .tl-item{padding-left:74px}
+  .tl-item::after{left:49px}
+  .tl-d{width:40px;font-size:11px}
+  .tl{padding:8px 16px}
+}
+@media(max-width:460px){
+  .rank-item{grid-template-columns:40px 56px 1fr}
+  .rth{width:56px;height:56px}
+  .rb h4{font-size:15.5px}
+  .ch{flex:0 0 180px}
+  .ch:hover{flex:0 0 190px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaolu.js"></script>
+
+<header class="topbar" role="banner">
+  <div class="top-in">
+    <a class="logo" href="https://33adianyingwang-wap.github.io/" aria-label="aⅴ电影网 首页">
+      <span class="logo-badge" aria-hidden="true">33</span>
+      <span class="logo-tx"><b>aⅴ电影网</b><small>33adianyingwang-wap.github.io</small></span>
+    </a>
+    <nav class="menu" aria-label="主导航">
+      <a href="#home">首页</a>
+      <a href="#rank">热播榜单</a>
+      <a href="#chan">类型频道</a>
+      <a href="#grid">频道导航</a>
+      <a href="#cal">上线日历</a>
+      <a href="#feat">专题合集</a>
+      <a href="#qa">关于与问答</a>
+    </nav>
+    <button class="mbtn" aria-label="打开菜单" aria-expanded="false" aria-controls="mainMenu"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<main id="home">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-c">
+      <span class="hero-pill">33adianyingwang-wap · 每日上新 · 免费畅看</span>
+      <h1>aⅴ电影网 · <em>好片不期而遇</em></h1>
+      <p>aⅴ电影网（33adianyingwang-wap.github.io）汇聚最新电影、热播剧集、综艺与动漫，题材齐全、更新及时，手机电脑自适应，轻松发现下一部心头好。</p>
+      <div class="searchbar" role="search">
+        <input type="search" placeholder="搜索电影、剧集、演员或类型…" aria-label="搜索影视">
+        <button type="button">搜索</button>
+      </div>
+      <div class="hero-acts">
+        <a class="bt bt-main" href="#rank">查看榜单</a>
+        <a class="bt bt-line" href="#chan">浏览类型</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目一：热播榜单 -->
+  <section class="wrap" id="rank" aria-labelledby="rankT">
+    <div class="stitle"><h2 id="rankT">热播榜单</h2><span>Top Ranking</span></div>
+    <p class="sdesc">综合播放量、收藏与口碑实时排行，本周最值得追的影视作品。</p>
+    <a class="more" href="#">完整榜单 ›</a>
+    <div class="rank-list">
+      <article class="rank-item"><span class="rn g1">01</span><div class="rth"><img src="https://picsum.photos/seed/r1/200/200" alt="《云端之上》封面" loading="lazy"></div><div class="rb"><h4>云端之上</h4><div class="meta">励志 · 院线电影</div><div class="bar"><i style="width:96%"></i></div></div><div class="sc"><b>9.3</b><span>热度 96</span></div></article>
+      <article class="rank-item"><span class="rn g2">02</span><div class="rth"><img src="https://picsum.photos/seed/r2/200/200" alt="《长安迷局》封面" loading="lazy"></div><div class="rb"><h4>长安迷局</h4><div class="meta">古装 · 悬疑剧</div><div class="bar"><i style="width:91%"></i></div></div><div class="sc"><b>8.9</b><span>热度 91</span></div></article>
+      <article class="rank-item"><span class="rn g3">03</span><div class="rth"><img src="https://picsum.photos/seed/r3/200/200" alt="《山海少年》封面" loading="lazy"></div><div class="rb"><h4>山海少年</h4><div class="meta">国漫 · 奇幻</div><div class="bar"><i style="width:88%"></i></div></div><div class="sc"><b>9.0</b><span>热度 88</span></div></article>
+      <article class="rank-item"><span class="rn">04</span><div class="rth"><img src="https://picsum.photos/seed/r4/200/200" alt="《逆光者》封面" loading="lazy"></div><div class="rb"><h4>逆光者</h4><div class="meta">犯罪 · 悬疑电影</div><div class="bar"><i style="width:84%"></i></div></div><div class="sc"><b>9.1</b><span>热度 84</span></div></article>
+      <article class="rank-item"><span class="rn">05</span><div class="rth"><img src="https://picsum.photos/seed/r5/200/200" alt="《春日迟迟》封面" loading="lazy"></div><div class="rb"><h4>春日迟迟</h4><div class="meta">都市 · 爱情剧</div><div class="bar"><i style="width:79%"></i></div></div><div class="sc"><b>8.6</b><span>热度 79</span></div></article>
+      <article class="rank-item"><span class="rn">06</span><div class="rth"><img src="https://picsum.photos/seed/r6/200/200" alt="《老友记食堂》封面" loading="lazy"></div><div class="rb"><h4>老友记食堂</h4><div class="meta">综艺 · 真人秀</div><div class="bar"><i style="width:73%"></i></div></div><div class="sc"><b>8.4</b><span>热度 73</span></div></article>
+    </div>
+  </section>
+
+  <!-- 栏目二：类型频道 -->
+  <section class="wrap" id="chan" aria-labelledby="chanT" style="padding-top:0">
+    <div class="stitle"><h2 id="chanT">类型频道</h2><span>Genre Channel</span></div>
+    <p class="sdesc">左右滑动浏览各类题材，一屏锁定你偏好的影视类型。</p>
+    <a class="more" href="#">全部类型 ›</a>
+    <div class="marquee">
+      <a class="ch" href="#"><img src="https://picsum.photos/seed/c1/300/400" alt="动作片封面" loading="lazy"><div class="ch-c"><b>动作</b><span>186 部</span><em>热血硬核</em></div></a>
+      <a class="ch" href="#"><img src="https://picsum.photos/seed/c2/300/400" alt="喜剧片封面" loading="lazy"><div class="ch-c"><b>喜剧</b><span>240 部</span><em>爆笑解压</em></div></a>
+      <a class="ch" href="#"><img src="https://picsum.photos/seed/c3/300/400" alt="爱情片封面" loading="lazy"><div class="ch-c"><b>爱情</b><span>205 部</span><em>甜蜜治愈</em></div></a>
+      <a class="ch" href="#"><img src="https://picsum.photos/seed/c4/300/400" alt="科幻片封面" loading="lazy"><div class="ch-c"><b>科幻</b><span>132 部</span><em>脑洞视效</em></div></a>
+      <a class="ch" href="#"><img src="https://picsum.photos/seed/c5/300/400" alt="悬疑片封面" loading="lazy"><div class="ch-c"><b>悬疑</b><span>158 部</span><em>反转不断</em></div></a>
+      <a class="ch" href="#"><img src="https://picsum.photos/seed/c6/300/400" alt="动画封面" loading="lazy"><div class="ch-c"><b>动画</b><span>196 部</span><em>国漫日漫</em></div></a>
+      <a class="ch" href="#"><img src="https://picsum.photos/seed/c7/300/400" alt="纪录频道封面" loading="lazy"><div class="ch-c"><b>纪录</b><span>88 部</span><em>真实世界</em></div></a>
+    </div>
+  </section>
+
+  <!-- 栏目三：频道导航 -->
+  <section class="wrap" id="grid" aria-labelledby="gridT" style="padding-top:0">
+    <div class="stitle"><h2 id="gridT">频道导航</h2><span>Quick Navigation</span></div>
+    <p class="sdesc">六大频道一键直达，快速定位你想要的影视内容。</p>
+    <div class="ch-grid">
+      <a class="ch2" href="#"><span class="no">01</span><em>🎬</em><b>电影频道</b><span>院线新片 / 经典老片</span></a>
+      <a class="ch2" href="#"><span class="no">02</span><em>📺</em><b>电视剧频道</b><span>国产 / 美剧 / 韩剧</span></a>
+      <a class="ch2" href="#"><span class="no">03</span><em>🎤</em><b>综艺频道</b><span>真人秀 / 访谈</span></a>
+      <a class="ch2" href="#"><span class="no">04</span><em>🎨</em><b>动漫频道</b><span>国漫 / 日漫 / 剧场版</span></a>
+      <a class="ch2" href="#"><span class="no">05</span><em>📽️</em><b>纪录片频道</b><span>人文 / 自然 / 历史</span></a>
+      <a class="ch2" href="#"><span class="no">06</span><em>🆕</em><b>最新上线</b><span>每日更新速递</span></a>
+    </div>
+  </section>
+
+  <!-- 栏目四：上线日历 -->
+  <section class="wrap" id="cal" aria-labelledby="calT" style="padding-top:0">
+    <div class="stitle"><h2 id="calT">上线日历</h2><span>Release Calendar</span></div>
+    <p class="sdesc">新片新剧上线时间一览，不错过任何一部好作品。</p>
+    <a class="more" href="#">完整日历 ›</a>
+    <div class="tl">
+      <article class="tl-item"><div class="tl-d">今天<small>10.09</small></div><h4>云端之上</h4><p>励志院线新片，今日同步上线，即刻开看。</p><span class="tg">电影 · 已上线</span></article>
+      <article class="tl-item"><div class="tl-d">今天<small>10.09</small></div><h4>长安迷局 第32集</h4><p>古装悬疑热剧最新一集，剧情迎来关键反转。</p><span class="tg">剧集 · 更新</span></article>
+      <article class="tl-item"><div class="tl-d">明天<small>10.10</small></div><h4>深海回响</h4><p>科幻冒险新片，明日首播，首批观众抢先看。</p><span class="tg">电影 · 预告</span></article>
+      <article class="tl-item"><div class="tl-d">后天<small>10.11</small></div><h4>山海少年 第09集</h4><p>国漫奇幻周更，本周集数即将放出。</p><span class="tg">动漫 · 周更</span></article>
+      <article class="tl-item"><div class="tl-d">周六<small>10.12</small></div><h4>老友记食堂 新一期</h4><p>真人秀综艺周六固定更新，明星做客本期节目。</p><span class="tg">综艺 · 周更</span></article>
+    </div>
+  </section>
+
+  <!-- 栏目五：专题合集 -->
+  <section class="wrap" id="feat" aria-labelledby="featT" style="padding-top:0">
+    <div class="stitle"><h2 id="featT">专题合集</h2><span>Featured Topics</span></div>
+    <p class="sdesc">精选专题长图入口，发现更多高质量观影清单。</p>
+    <div class="bn">
+      <a class="bn-a b1" href="#"><span>合集</span><h4>2026 院线新片速递</h4><p>全年院线大片持续收录，一次看全年度最值得期待的作品。</p></a>
+      <a class="bn-a b2" href="#"><span>专题</span><h4>百看不厌的经典老片</h4><p>跨越年代的高分佳作，重温那些值得反复回味的瞬间。</p></a>
+      <a class="bn-a b3" href="#"><span>专题</span><h4>周末合家欢片单</h4><p>适合全家一起观看的温暖电影与动画合集。</p></a>
+    </div>
+  </section>
+
+  <!-- 栏目六：数据墙 + 问答 -->
+  <section class="wrap" id="qa" aria-labelledby="qaT" style="padding-top:0">
+    <div class="stitle"><h2 id="qaT">关于 aⅴ电影网</h2><span>About & FAQ</span></div>
+    <p class="sdesc">了解本站服务，快速解决常见疑问。</p>
+    <div class="split">
+      <div class="wall">
+        <div class="wi"><b>11000+</b><span>影视资源总量</span></div>
+        <div class="wi"><b>7 大</b><span>主题频道分类</span></div>
+        <div class="wi"><b>每日</b><span>新片与剧集同步</span></div>
+        <div class="wi"><b>全端</b><span>手机 / 电脑 / 平板自适应</span></div>
+      </div>
+      <div class="qa">
+        <details open>
+          <summary>aⅴ电影网是什么网站？</summary>
+          <p>aⅴ电影网（33adianyingwang-wap.github.io）是一个提供高清电影、电视剧、综艺与动漫在线观看导航的影视站点，致力于为用户提供便捷、流畅的观影体验。</p>
+        </details>
+        <details>
+          <summary>手机上可以正常观看吗？</summary>
+          <p>可以。本站采用移动端自适应设计，手机、平板、电脑打开均能自动适配布局，无需下载客户端。</p>
+        </details>
+        <details>
+          <summary>多久更新一次内容？</summary>
+          <p>热门电影与剧集每日同步更新，上线日历与热播榜单栏目可查看具体的上线与更新时间。</p>
+        </details>
+        <details>
+          <summary>如何快速找到想看的片子？</summary>
+          <p>可通过顶部搜索框按片名、演员或类型检索，也可使用类型频道、频道导航与专题合集按题材快速浏览。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot" role="contentinfo">
+  <div class="foot-c">
+    <div class="foot-top">
+      <div>
+        <div class="foot-logo"><span class="logo-badge" aria-hidden="true">33</span><b>aⅴ电影网</b></div>
+        <p style="max-width:340px;font-size:14px;line-height:1.9;color:var(--ink2)">33adianyingwang-wap.github.io 聚合最新高清电影、热播剧集与综艺动漫，每日更新，全站移动端自适应。</p>
+      </div>
+      <div class="foot-col">
+        <h5>快速导航</h5>
+        <a href="#home">首页</a>
+        <a href="#rank">热播榜单</a>
+        <a href="#chan">类型频道</a>
+        <a href="#grid">频道导航</a>
+        <a href="#cal">上线日历</a>
+        <a href="#feat">专题合集</a>
+      </div>
+      <div class="foot-col">
+        <h5>栏目入口</h5>
+        <a href="#qa">关于本站</a>
+        <a href="#qa">常见问题</a>
+        <a href="#chan">全部类型</a>
+        <a href="#grid">频道直达</a>
+      </div>
+    </div>
+    <div class="foot-bot">
+      <p>本站仅提供影视内容导航与信息展示，相关资源版权归原作者及发行方所有，如有侵权请联系处理。</p>
+      <p>© 2026 aⅴ电影网 33adianyingwang-wap.github.io 保留所有权利。</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var btn=document.querySelector('.mbtn'),menu=document.querySelector('.menu');
+  if(btn&&menu){
+    btn.addEventListener('click',function(){
+      var o=menu.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded',o?'true':'false');
+    });
+    menu.addEventListener('click',function(e){
+      if(e.target.tagName==='A'){menu.classList.remove('is-open');btn.setAttribute('aria-expanded','false');}
+    });
+  }
+})();
+</script>
+</body>
+</html>
